@@ -9,8 +9,9 @@ from task.app.main import run
 #  User massage: Explain the water cycle in simple terms for children
 
 run(
-    deployment_name='gpt-4o',
+    deployment_name="gpt-4o",
     print_only_content=True,
+    frequency_penalty=1.0,
     # TODO:
     #  Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
 )
